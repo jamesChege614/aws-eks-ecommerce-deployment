@@ -6,7 +6,7 @@ This project demonstrates the design and deployment of a production-style contai
 
 The goal of this project was to implement a scalable, secure and reproducible deployment architecture that reflects real-world DevOps and cloud engineering practices.
 
-Live Domain: https://jaychen.co.ke
+Live Domain: https://jaychen.cloud
 
 ---
 
