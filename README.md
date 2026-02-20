@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the design and deployment of a production-style containerized e-commerce application on AWS using Kubernetes (Amazon EKS). The infrastructure and application environment were provisioned using Infrastructure as Code and Kubernetes manifests, with external traffic managed through an AWS Application Load Balancer (ALB) integrated with domain routing and SSL termination.
+This project demonstrates the design and deployment of a production-style containerized e-commerce application on AWS using Kubernetes (Amazon EKS). The infrastructure and application environment were provisioned using Kubernetes manifests, with external traffic managed through an AWS Application Load Balancer (ALB) integrated with an external domain routing and SSL termination.
 
 The goal of this project was to implement a scalable, secure and reproducible deployment architecture that reflects real-world DevOps and cloud engineering practices.
 
@@ -81,7 +81,7 @@ This enabled secure and scalable external access to the application.
 
 ## Domain and SSL Configuration
 
-The external domain (jaychen.co.ke) was configured using AWS Route53.
+The external domain (jaychen.cloud) was configured using AWS Route53.
 
 SSL/TLS certificates were provisioned through AWS Certificate Manager and attached to the ALB, enabling secure HTTPS communication with automatic certificate management.
 
@@ -131,14 +131,20 @@ These challenges improved understanding of Kubernetes networking, cloud infrastr
 
 ## Screenshots
 
-(Add screenshots here)
-
 - EKS Cluster
+- <img width="1327" height="616" alt="image" src="https://github.com/user-attachments/assets/52db2e13-2897-4604-b8dc-1157304a14cb" />
+
 - Node Groups
-- Running Pods
+- <img width="1500" height="782" alt="image" src="https://github.com/user-attachments/assets/e74783a0-0140-449c-965e-0aaa9e04b7cd" />
+
+- Cloud Formation Stack
+- <img width="1463" height="615" alt="image" src="https://github.com/user-attachments/assets/6a4bb205-482c-4c56-93dd-d13f29eee060" />
+
 - Load Balancer
 - Domain with SSL
 - Application interface
+- <img width="1896" height="925" alt="image" src="https://github.com/user-attachments/assets/4395236d-7872-499f-b747-e892b614563e" />
+
 
 ---
 
